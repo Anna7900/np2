@@ -1,0 +1,85 @@
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git branch branch-b1
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git branch branch-b2
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git branch branch-b3
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git switch branch-b3
+Switched to branch 'branch-b3'
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git switch branch-b2
+Switched to branch 'branch-b2'
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git switch branch-b1
+Switched to branch 'branch-b1'
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git branch
+* branch-b1
+  branch-b2
+  branch-b3
+  main
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git branch branch-b3
+fatal: a branch named 'branch-b3' already exists
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git add num.c
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git commit -m"1"
+[branch-b1 d732eed] 1
+ 1 file changed, 1 insertion(+)
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git push origin branch-b3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch-b3' on GitHub by visiting:
+remote:      https://github.com/Anna7900/MARIA37/pull/new/branch-b3
+remote:
+To https://github.com/Anna7900/MARIA37.git
+ * [new branch]      branch-b3 -> branch-b3
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git add num.c
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git commit -m"2"
+[branch-b1 73b94d9] 2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git push origin branch-b2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch-b2' on GitHub by visiting:
+remote:      https://github.com/Anna7900/MARIA37/pull/new/branch-b2
+remote:
+To https://github.com/Anna7900/MARIA37.git
+ * [new branch]      branch-b2 -> branch-b2
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git add num.c
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git commit -m"3"
+On branch branch-b1
+nothing to commit, working tree clean
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git push origin branch-b1
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 513 bytes | 256.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects
+remote:
+remote: Create a pull request for 'branch-b1' on GitHub by visiting:
+remote:      https://github.com/Anna7900/MARIA37/pull/new/branch-b1
+remote:
+To https://github.com/Anna7900/MARIA37.git
+ * [new branch]      branch-b1 -> branch-b1
+
+C:\Users\HP\OneDrive\Desktop\12\demodemo\MARIA37>git branch -a
+* branch-b1
+  branch-b2
+  branch-b3
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch-b1
+  remotes/origin/branch-b2
+  remotes/origin/branch-b3
+  remotes/origin/main
